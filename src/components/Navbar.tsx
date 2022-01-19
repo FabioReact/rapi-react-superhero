@@ -13,6 +13,7 @@ const Navbar = (): JSX.Element => {
 					<li><NavLink className={getClassNames} to="battle">Battle</NavLink></li>
 					<li><NavLink className={getClassNames} to="heroes">Heroes</NavLink></li>
 					<li><NavLink className={getClassNames} to="search">Search</NavLink></li>
+					<li><NavLink className={getClassNames} to="cities">Cities</NavLink></li>
 				</ul>
 			</nav>
 		</header>
